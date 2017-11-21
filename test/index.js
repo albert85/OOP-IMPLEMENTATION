@@ -14,7 +14,6 @@ describe('OOP Implementation',()=>{
         })
     });
 
-
     describe('handles invalid input', () => {
         it('this should return a predefined error message', () => {
             assert.deepEqual((new Dog(1)).leg, "Please supply a string");
